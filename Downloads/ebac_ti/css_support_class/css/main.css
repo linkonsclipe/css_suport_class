@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: azure;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: azure;
+    text-decoration: none;
+
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.article article img {
+    /* height: 180px; */
+    width: 100%;
+
+}
+.article article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.article article{
+    margin-bottom: 16px;
+}
+.article article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article a{
+    background-color: aquamarine;
+    color: blue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.article article a:hover {
+    text-decoration: underline;
+
+}
+.article article p,
+.article article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+#sports {
+    background-color: rgba(0,255,0,0.1);
+}
+
+#sports .article article a {
+    background-color: rgba(0,255,0,0.2);
+    color: #000;
+}
+
+#economy {
+    background-color: #fffca3;
+}
+
+#economy .article article a {
+    background-color: #fcf15b;
+    color: #000;
+}
+
+#entertainment {
+    background-color: #ffcab7;
+}
+
+#entertainment article a {
+    background-color:rgba(218, 118, 82, 0.5);
+    color: #000;
+}
+
+#tecnology {
+    background-color:  #c3c4fd;
+}
+
+#tecnology .article article a {
+    background-color: #716ffc;
+    color: #000;
+}
+
+#rodape a{
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none; 
+    outline: none;
+    background-color: #313131;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
